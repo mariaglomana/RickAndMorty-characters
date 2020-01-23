@@ -1,0 +1,126 @@
+@import "vendor/normalize";
+@import "core/variables";
+@import "core/mixins";
+
+.App {
+  min-height: 100vh;
+  padding: 28px 30px;
+  background-color: $wet-asphalt;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+
+  &-header {
+    display: flex;
+    justify-content: center;
+    &__logo {
+      height: 16vh;
+    }
+  }
+
+  &-main {
+    min-height: 60vh;
+  }
+}
+
+.search {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 18px;
+  }
+  &__input-text {
+    background-color: $midnight-blue;
+    border: solid 2px $emerald;
+    color: $clouds;
+    font-weight: bold;
+    padding-left: 9px;
+    font-size: 16px;
+  }
+  &__by-gender {
+    &--input-radio {
+      padding-left: 5px;
+    }
+  }
+}
+
+.char-list {
+  &__wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  &__item {
+    background-color: $carrot;
+    color: white;
+    margin: 9px 15px;
+    height: 264px;
+    width: 195px;
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 15px 10px 15px $nephritis;
+    }
+  }
+}
+
+.card {
+  &__image {
+    background-size: cover;
+    width: 100%;
+  }
+  &__text {
+    margin: 5px;
+    overflow: hidden;
+    font-size: 22px;
+    &--name {
+      font-weight: bold;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+.char-detail {
+  &__wrapper {
+    min-height: inherit;
+  }
+  &__back-link {
+    display: inline-block;
+    margin: 10px;
+    height: 1vh;
+    position: relative;
+    right: -216px;
+    bottom: -6px;
+    &--btn {
+      background-color: $carrot;
+      color: white;
+      padding: 14px;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+  }
+
+  &__card {
+    background-color: $nephritis;
+    color: $clouds;
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--image {
+      padding: 30px;
+      padding-bottom: 0;
+      height: 35vh;
+    }
+    &--text {
+      margin: 15px 30px;
+    }
+    &--name {
+      margin: 8px 0;
+    }
+  }
+}
+
+@import "layout/mediaqueries";
