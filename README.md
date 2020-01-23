@@ -6,6 +6,6 @@ The main page displays the 20 most famous characters from this TV serie. You can
 
 In order to see a larger description of your chosen character, please click on his card and a detailed view will be displayed in a new page. To come back to the main page, click on the 'Volver' button.
 
-***This is a responsive app so you can watch it both in your phone and your laptop :computer:***
+***This is a responsive app so you can watch it both from your phone or your laptop :computer:***
 
 **Thanks for visiting!**
