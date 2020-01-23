@@ -1,6 +1,4 @@
-<img src="/logo.png" alt="Rick&Morty logo" width="150" height="100" />
-
-# Search app of ![Rick&Morty](logo.png) characters
+# Search app of <img src="/logo.png" alt="Rick&Morty logo" width="150" height="49" /> characters
 
 > This project is based on characters from TV series [Rick And Morty](http://www.adultswim.com/videos/rick-and-morty/).
 
