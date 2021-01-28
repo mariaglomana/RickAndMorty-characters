@@ -25,7 +25,7 @@ const Search = props => {
       <ul className="search__by-gender">
         <h3>Filtrar por género:</h3>
         <li key="male">
-          <label for="male">
+          <label htmlFor="male">
             <input
               id="male"
               type="radio"
@@ -37,7 +37,7 @@ const Search = props => {
           </label>
         </li>
         <li key="female">
-          <label for="female">
+          <label htmlFor="female">
             <input
               id="female"
               type="radio"
