@@ -1,6 +1,6 @@
 # Search app of <img src="/logo.png" alt="Rick&Morty logo" width="195" height="63.3" /> characters
 
-> This project is based on characters from TV series Rick And Morty, [click here to visit their website](http://www.adultswim.com/videos/rick-and-morty/).
+> This project was created on January 2020 with React. [Try it here!](https://mariaglomana.github.io/RickAndMorty-App/#/).
 
 The main page displays the 20 most famous characters from this TV serie. You can find your preferred character by typing his name in the input field. You can also filter the results by genre.
 
